@@ -1,10 +1,9 @@
 .canvas {
     display: flex;
     flex-wrap: wrap;
-    border-color: grey;
-    border-width: 10px;
-    height: 380px;
-    width: 390px;
+    border: 1px solid grey;
+    height: 320px;
+    width: 320px;
     align-items: center;
     justify-content: center;
     gap: 0px;

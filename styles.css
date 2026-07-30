@@ -3,5 +3,9 @@
     flex-wrap: wrap;
     border-color: grey;
     border-width: 10px;
-    height: 
+    height: 700px;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
 }

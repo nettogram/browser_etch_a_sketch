@@ -1,10 +1,14 @@
 const eccContainer = document.querySelector(".canvas");
-const gridCount = 16 * 16;
+let boxCount = 16;
+const gridCount = boxCount * boxCount;
+eccContainer.style.height = boxCount * 20;
 
 for (let i = 0; i < gridCount; i++) {
     const eccSquare = document.createElement("div");
-    eccSquare.setAttribute("style", "height: 20px; width: 20px;");
+    eccSquare.style.height = "20px";
+    eccSquare.style.width = "20px";
     eccSquare.textContent = " ";
     eccContainer.appendChild(eccSquare);
     eccSquare.addEventListener("mouseover", (event) => eccSquare.style.backgroundColor = "black")
 }
+

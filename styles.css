@@ -1,4 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
 .canvas {
+    margin: 100px;
     display: flex;
     flex-wrap: wrap;
     border: 1px solid grey;
@@ -7,4 +13,5 @@
     align-items: center;
     justify-content: center;
     gap: 0px;
+
 }
